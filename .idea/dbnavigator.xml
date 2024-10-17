@@ -17,6 +17,7 @@
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="c8385d17-09e2-45de-ab1c-8786233c8671">
+      <console name="Connection" type="STANDARD" schema="" session="Main"><![CDATA[SELECT *FROM ogrenciler;]]></console>
       <console name="Connection 1" type="STANDARD" schema="" session="Main" />
     </connection>
   </component>
@@ -24,11 +25,12 @@
     <last-used-providers />
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
-    <open-files />
+    <open-files>
+      <object connection-id="c8385d17-09e2-45de-ab1c-8786233c8671" object-ref="consoles/Connection" />
+    </open-files>
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
-    <connection id="39438eb7-82f6-41de-947d-2eb69c3ebf60" />
-    <connection id="5197cdb8-b59c-4572-be88-3698495fb090" />
+    <connection id="c8385d17-09e2-45de-ab1c-8786233c8671" />
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
     <filter-actions connection-id="39438eb7-82f6-41de-947d-2eb69c3ebf60" dataset="public.calisanlar" active-filter-id="" />
@@ -56,7 +58,7 @@
           <description value="" />
           <database-type value="POSTGRES" />
           <config-type value="BASIC" />
-          <database-version value="9999.0" />
+          <database-version value="15.3" />
           <driver-source value="BUNDLED" />
           <driver-library value="" />
           <driver value="" />
