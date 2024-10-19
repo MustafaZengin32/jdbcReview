@@ -17,8 +17,9 @@
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="c8385d17-09e2-45de-ab1c-8786233c8671">
-      <console name="Connection" type="STANDARD" schema="" session="Main"><![CDATA[SELECT *FROM ogrenciler;]]></console>
-      <console name="Connection 1" type="STANDARD" schema="" session="Main" />
+      <console name="Connection" type="STANDARD" schema="" session="Main"><![CDATA[SELECT * FROM ogrenci_bilgiler;
+SELECT * FROM ogrenci_bilgiler;
+SELECT * FROM ogrenci_bilgiler;]]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseEditorStateManager">
