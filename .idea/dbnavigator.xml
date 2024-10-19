@@ -17,9 +17,7 @@
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="c8385d17-09e2-45de-ab1c-8786233c8671">
-      <console name="Connection" type="STANDARD" schema="" session="Main"><![CDATA[SELECT * FROM ogrenci_bilgiler;
-SELECT * FROM ogrenci_bilgiler;
-SELECT * FROM ogrenci_bilgiler;]]></console>
+      <console name="Connection" type="STANDARD" schema="" session="Main"><![CDATA[SELECT * FROM ogrenci_bilgiler]]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseEditorStateManager">
@@ -97,7 +95,7 @@ SELECT * FROM ogrenci_bilgiler;]]></console>
           <session-management value="true" />
           <ddl-file-binding value="true" />
           <database-logging value="true" />
-          <connect-automatically value="true" />
+          <connect-automatically value="false" />
           <restore-workspace value="true" />
           <restore-workspace-deep value="false" />
           <environment-type value="default" />

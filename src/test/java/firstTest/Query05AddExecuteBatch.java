@@ -7,7 +7,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class Query05 {
+public class Query05AddExecuteBatch {
 
     @Test
     public void test() throws ClassNotFoundException, SQLException {

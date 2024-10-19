@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import java.sql.*;
 
-public class Query06 {
+public class Query06MetaData {
 
     @Test
     public void test1() throws ClassNotFoundException, SQLException {
